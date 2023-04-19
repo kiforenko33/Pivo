@@ -1,0 +1,26 @@
+html<!DOCTYPE html>
+<html> <head> 
+<title>Название магазина пива</title> 
+</head> 
+<body> 
+<header> 
+<nav> 
+<ul> <li><a href="#">Главная</a></li> 
+<li><a href="#">Каталог</a></li> 
+<li><a href="#">Контакты</a></li> </ul> 
+</nav> </header> <main> <aside> <nav> 
+<ul> <li><a href="#">Светлое</a></li> 
+<li><a href="#">Темное</a></li> 
+<li><a href="#">Безалкогольное</a></li> 
+</ul> </nav> 
+<form> <label for="search">Поиск</label> 
+<input type="text" id="search" name="search" placeholder="Введите название пива"> 
+<button type="submit">Найти</button> </form> </aside> 
+<section> <h1>Название магазина пива</h1> <p>Описание магазина пива и его преимущества</p> 
+<ul> <li><a href="#">Статьи</a></li> 
+<li><a href="#">Акции</a></li> 
+<li><a href="#">Новинки</a></li> 
+</ul> <div id="beer-catalogue"> 
+<h2>Каталог товаров</h2> <ul> 
+<!-- Вывод товаров --> <li> <a href="#"> <img src="#" alt="Изображение товара"> <h3>Название пива</h3> <p>Цена: </p> </a> </li> </ul> </div> </section> </main> <footer> <p>Адрес: ... Телефон: ...</p> 
+</footer> </body></html>
